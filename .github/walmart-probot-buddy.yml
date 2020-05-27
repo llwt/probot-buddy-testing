@@ -3,6 +3,5 @@ enabled_features:
   - of
   - feature
   - "names, e.g.:"
-  - autolabeler
   - semantic-pull-requests
   - "see #Features for available probot apps"
