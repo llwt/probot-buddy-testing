@@ -1,1 +1,3 @@
-best: foo
+features:
+  - stale
+  - autolabeler
