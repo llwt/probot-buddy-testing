@@ -1,8 +1,5 @@
 enabled_features:
-  - stalebot
-  - list
-  - of
-  - feature
+#  - stalebot
   - "names, e.g.:"
   - semantic-pull-requests
-  - "see #Features for available probot apps"
+  - bot-pr-merge
