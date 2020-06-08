@@ -1,2 +1,4 @@
-titleOnly: true
 allowMergeCommits: true
+scopes:
+  - tacos
+  - burritos
