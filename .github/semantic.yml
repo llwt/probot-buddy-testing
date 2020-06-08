@@ -2,3 +2,4 @@ allowMergeCommits: true
 scopes:
   - tacos
   - burritos
+allowEmptyScope: false
