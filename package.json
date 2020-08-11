@@ -1,0 +1,8 @@
+{
+  "name": "probot-buddy-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/llwt/probot-buddy-testing.git",
+  "author": "Steven Nance <steven.nance@walmartlabs.com>",
+  "license": "MIT"
+}
