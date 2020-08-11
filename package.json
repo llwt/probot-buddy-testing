@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/llwt/probot-buddy-testing.git",
   "author": "Steven Nance <steven.nance@walmartlabs.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
 }
