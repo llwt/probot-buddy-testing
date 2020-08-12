@@ -7,10 +7,8 @@ jobs:
     docker:
       - image: cimg/node:13.11.0
     steps:
-      - run:
-          command: |
-            echo "I always fail"
-            exit 1
+      - run: echo "I always fail"
+      - run: exit 1
 
 workflows:
   node-tests:
