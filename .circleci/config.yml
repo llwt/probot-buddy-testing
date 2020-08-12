@@ -1,7 +1,19 @@
 version: 2.1
 orbs:
   node: circleci/node@3.0.0
+
+jobs:
+  node/fail:
+    docker:
+      - image: cimg/node:13.11.0
+    steps:
+      - run:
+          command: |
+            echo "I always fail"
+            exit 1
+
 workflows:
   node-tests:
     jobs:
       - node/test
+      - node/fail
