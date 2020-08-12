@@ -51,3 +51,4 @@ workflows:
     jobs:
       - node/test
       - node/fail
+  version: 2
