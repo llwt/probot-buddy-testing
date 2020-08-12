@@ -45,10 +45,17 @@ jobs:
     steps:
       - run: echo "I always fail"
       - run: exit 1
+  node/slow:
+    docker:
+      - image: cimg/node:13.11.0
+    steps:
+      - run: echo "I am really slow"
+      - run: sleep 300
 
 workflows:
   node-tests:
     jobs:
       - node/test
       - node/fail
+      - node/slow
   version: 2
